@@ -1,0 +1,38 @@
+# Craig Scratchley, October 2021
+# gdb initialization file for ENSC 351
+
+#set debug infrun 1
+set logging overwrite on
+set logging on
+
+handle SIGPIPE nostop
+
+## Skip the Catch library functions  when stepping into
+#skip -rfu Catch
+#skip -rfu _catch_sr
+
+# Skip everything from the std namespace
+skip -rfu ^std::
+#      and skip from __ubsan namespace for sanitization
+skip -rfu ^__ubsan::
+#      GNU Scientific Library ???
+#skip -rfu ^gsl::
+
+skip file /mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351/ScopedMutex.cpp 
+
+# The following setting will allow C++ pretty printers
+#	printers to work when using gdbserver
+#	on localhost.  Craig Scratchley
+set sysroot /
+
+# Allow pretty printing to work for pthread library structures.
+# 1st, allow the file nptl_lock_constants.py to be found once
+#     it has been built and put in a chosen directory.
+python
+import sys
+sys.path.insert(0, '/home/osboxes/VMsf2020/') 
+end
+#sys.path.insert(0, '/home/osboxes/share/libc-bin/nptl/pretty-printers/') 
+
+# 2nd, source the pretty printers.
+source /build/glibc-YYA7BZ/glibc-2.31/nptl/nptl-printers.py

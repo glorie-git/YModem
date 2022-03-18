@@ -1,0 +1,21 @@
+16:49:01 **** Incremental Build of configuration Debug for project Ensc351ymodLib ****
+make all 
+Building file: ../PeerY.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -I"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PeerY.d" -MT"PeerY.o" -o "PeerY.o" "../PeerY.cpp"
+Finished building: ../PeerY.cpp
+ 
+Building file: ../ReceiverY.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -I"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ReceiverY.d" -MT"ReceiverY.o" -o "ReceiverY.o" "../ReceiverY.cpp"
+Finished building: ../ReceiverY.cpp
+ 
+Building target: libEnsc351ymodLib.a
+Invoking: GCC Archiver
+ar -r  "libEnsc351ymodLib.a"  ./PeerY.o ./ReceiverY.o ./SenderY.o ./crc.o ./myIO.o ./terminal.o ./yReceiverSS.o ./ySenderSS.o   
+ar: creating libEnsc351ymodLib.a
+Finished building target: libEnsc351ymodLib.a
+ 
+
+16:49:06 Build Finished. 0 errors, 0 warnings. (took 5s.341ms)
+

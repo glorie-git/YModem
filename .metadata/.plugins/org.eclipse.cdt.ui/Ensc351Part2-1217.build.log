@@ -1,0 +1,10 @@
+16:44:30 **** Build of configuration Debug for project Ensc351Part2-1217 ****
+make all 
+Building target: Ensc351Part2-1217
+Invoking: GCC C++ Linker
+g++ -L"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351/Debug" -o "Ensc351Part2-1217"  ./src/Ensc351Part2.o ./src/Medium.o ./src/PeerY.o ./src/ReceiverY.o ./src/SenderY.o ./src/main.o ./src/myIO.o   -lEnsc351 -lpthread
+Finished building target: Ensc351Part2-1217
+ 
+
+16:44:36 Build Finished. 0 errors, 0 warnings. (took 5s.982ms)
+

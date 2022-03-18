@@ -1,0 +1,86 @@
+Pri: posixThread T32(SCHED_FIFO, 70, threadT32Func); statement will now be started
+Pri: posixThread T32(SCHED_FIFO, 70, threadT32Func); statement has now finished
+Pri: T32.join(); statement will now be started
+T32: mySocketpair(AF_LOCAL, SOCK_STREAM, 0, daSktPr) will now be called
+T32: mySocketpair(AF_LOCAL, SOCK_STREAM, 0, daSktPr) result was 0
+T32: mySocketpair(AF_LOCAL, SOCK_STREAM, 0, daSktPr1) will now be called
+T32: mySocketpair(AF_LOCAL, SOCK_STREAM, 0, daSktPr1) result was 0
+T32: mySocketpair(AF_LOCAL, SOCK_STREAM, 0, daSktPr2) will now be called
+T32: mySocketpair(AF_LOCAL, SOCK_STREAM, 0, daSktPr2) result was 0
+T32: PE_NOT(myWrite(daSktPr[0], "abcd", 4), 4) will now be called
+T32: PE_NOT(myWrite(daSktPr[0], "abcd", 4), 4) result was 4
+T32: posixThread threadT42(60, threadT42Func); statement will now be started
+T32: posixThread threadT42(60, threadT42Func); statement has now finished
+T32: myTcdrain(daSktPr[0]) will now be called
+T42: PE_NOT(myWrite(daSktPr[1], "ijkl", 5), 5) will now be called
+T42: PE_NOT(myWrite(daSktPr[1], "ijkl", 5), 5) result was 5
+T42: posixThread threadT41(50, threadT41Func); statement will now be started
+T42: posixThread threadT41(50, threadT41Func); statement has now finished
+T42: myTcdrain(daSktPr[1]) will now be called
+T41: myReadcond(daSktPr[1], Ba, 20, 12, 0, 0) will now be called
+T32: myTcdrain(daSktPr[0]) result was 0
+T32: setSchedPrio(40) will now be called
+T32: setSchedPrio(40) result was 0
+T32: PE_NOT(myWrite(daSktPr[0], "123456789", 10), 10) will now be called
+T41: myReadcond(daSktPr[1], Ba, 20, 12, 0, 0) result was 14 Ba: abcd123456789
+T41: myReadcond(daSktPr[1], Ba, 20, 0, 0, 0) will now be called
+T41: myReadcond(daSktPr[1], Ba, 20, 0, 0, 0) result was 0
+T41: myWrite(daSktPr[1], "Will not be read", 17) will now be called
+T41: myWrite(daSktPr[1], "Will not be read", 17) result was 17
+T41: myReadcond(daSktPr[1], Ba, 20, 12, 0, 0) will now be called
+T32: PE_NOT(myWrite(daSktPr[0], "123456789", 10), 10) result was 10
+T32: setSchedPrio(80) will now be called
+T32: setSchedPrio(80) result was 0
+T32: PE_NOT(myWrite(daSktPr[0], "xyz", 4), 4) will now be called
+T32: PE_NOT(myWrite(daSktPr[0], "xyz", 4), 4) result was 4
+T32: PE(myTcdrain(daSktPr[0])) will now be called
+T32: PE(myTcdrain(daSktPr[0])) result was 0
+T32: myClose(daSktPr[0]) will now be called
+T32: myClose(daSktPr[0]) result was 0
+T32: setSchedPrio(40) will now be called
+T42: myTcdrain(daSktPr[1]) result was 0
+T42: myTcdrain(daSktPr[1]) will now be called
+T42: myTcdrain(daSktPr[1]) result was 0
+T42: threadT41.join(); statement will now be started
+T41: myReadcond(daSktPr[1], Ba, 20, 12, 0, 0) result was 4 Ba: xyz
+T41: myReadcond(daSktPr[1], Ba, 20, 1, 0, 0) will now be called
+T41: myReadcond(daSktPr[1], Ba, 20, 1, 0, 0) result was -1 errno 104: Connection reset by peer
+T41: myWrite(daSktPr1[1], "Will not be read", 17) will now be called
+T41: myWrite(daSktPr1[1], "Will not be read", 17) result was 17
+T41: myReadcond(daSktPr1[1], Ba, 20, 1, 0, 0) will now be called
+T32: setSchedPrio(40) result was 0
+T32: myClose(daSktPr1[0]) will now be called
+T41: myReadcond(daSktPr1[1], Ba, 20, 1, 0, 0) result was -1 errno 104: Connection reset by peer
+T41: myReadcond(daSktPr1[1], Ba, 20, 1, 0, 0) will now be called
+T41: myReadcond(daSktPr1[1], Ba, 20, 1, 0, 0) result was 0
+T41: myWrite(daSktPr[1], "Added", 6) will now be called
+T41: myWrite(daSktPr[1], "Added", 6) result was -1 errno 32: Broken pipe
+T41: myRead(daSktPr2[1], Ba, 20) will now be called
+T32: myClose(daSktPr1[0]) result was 0
+T32: PE_NOT(myWrite(daSktPr2[0], "mno", 4), 4) will now be called
+T41: myRead(daSktPr2[1], Ba, 20) result was 4 Ba: mno
+T41: myRead(daSktPr2[1], Ba, 20) will now be called
+T32: PE_NOT(myWrite(daSktPr2[0], "mno", 4), 4) result was 4
+T32: myClose(daSktPr2[0]) will now be called
+T41: myRead(daSktPr2[1], Ba, 20) result was 0
+T41: myClose(daSktPr2[1]) will now be called
+T41: myClose(daSktPr2[1]) result was 0
+T41: myClose(daSktPr1[1]) will now be called
+T41: myClose(daSktPr1[1]) result was 0
+T41: myClose(daSktPr[1]) will now be called
+T41: myClose(daSktPr[1]) result was 0
+T41: myClose(daSktPr[1]) will now be called
+T41: myClose(daSktPr[1]) result was -1 errno 9: Bad file descriptor
+T41: myRead(daSktPr[1], Ba, 20) will now be called
+T41: myRead(daSktPr[1], Ba, 20) result was -1 errno 9: Bad file descriptor
+T41: myReadcond(daSktPr[1], Ba, 20, 0, 0, 0) will now be called
+T41: myReadcond(daSktPr[1], Ba, 20, 0, 0, 0) result was -1 errno 9: Bad file descriptor
+T41: myWrite(daSktPr[1], Ba, 20) will now be called
+T41: myWrite(daSktPr[1], Ba, 20) result was -1 errno 9: Bad file descriptor
+T41: myTcdrain(daSktPr[1]) will now be called
+T41: myTcdrain(daSktPr[1]) result was -1 errno 9: Bad file descriptor
+T42: threadT41.join(); statement has now finished
+T32: myClose(daSktPr2[0]) result was 0
+T32: threadT42.join(); statement will now be started
+T32: threadT42.join(); statement has now finished
+Pri: T32.join(); statement has now finished

@@ -1,0 +1,1052 @@
+9999 4 1
+6
+BEGIN DATA
+BEGIN GenericState 183
+183 10
+2 2 191 151
+1
+Receiver_TopLevel
+1 12582911 0
+193
+TEXTBEGIN
+    ctx.NCGbyte='C';
+    ctx.sendByte(ctx.NCGbyte); 
+    ctx.errCnt=0; ctx.anotherFile=0;
+    ctx.transferringFileD = -1; 
+    ctx.closeProb = -1;
+    ctx.tm(TM_SOH);
+    ctx.KbCan=false;
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN GenericState 118
+118 10
+9 21 153 116
+1
+NON_CAN
+1 65535 0
+0
+TEXTBEGIN
+
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN GenericState 197
+197 10
+77 55 112 83
+1
+DataCancelable
+0 16777215 0
+0
+TEXTBEGIN
+
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN GenericState 101
+101 10
+80 74 97 82
+1
+FirstByteData
+0 12582911 0
+0
+TEXTBEGIN
+
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN GenericState 103
+103 10
+84 58 93 66
+1
+EOT
+0 12582911 0
+0
+TEXTBEGIN
+
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN FinalState 109
+109 10
+156 109 160 113
+1
+FinalState
+BEGIN Mesg 111
+111 20
+93 57 112 74
+1
+1 1 16777215 65280
+108
+SER
+!ctx.KbCan &&       c == EOT
+81
+TEXTBEGIN
+ctx.purge();  ctx.sendByte(NAK);
+++ctx.errCnt; ctx.NCGbyte=NAK;
+ctx.tm(TM_SOH);
+TEXTEND
+BEGIN Mesg 113
+113 20
+91 47 118 56
+1
+1 1 16777215 65280
+110
+SER
+c==EOT
+27
+TEXTBEGIN
+ctx.closeTransferredFile();
+TEXTEND
+BEGIN GenericState 129
+129 10
+75 102 101 114
+1
+CondTransientData
+0 8454016 0
+15
+TEXTBEGIN
+     ctx.tm(0);
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN Mesg 131
+131 20
+72 83 100 105
+1
+1 1 16777215 65280
+130
+SER
+!ctx.KbCan && c==SOH
+131
+TEXTBEGIN
+ctx.getRestBlk();
+if (ctx.goodBlk1st) {
+     ctx.NCGbyte=NAK;
+     ctx.errCnt=0;
+     ctx.anotherFile=0;
+}
+else ctx.errCnt++;
+TEXTEND
+BEGIN Mesg 134
+134 20
+116 98 155 118
+1
+1 1 16777215 65280
+133
+TM
+ctx.syncLoss || ctx.errCnt >= errB
+142
+TEXTBEGIN
+ctx.cans();
+ctx.closeTransferredFile();
+if (ctx.syncLoss)
+     ctx.result="LossOfSyncronization";
+else
+     ctx.result="ExcessiveErrors";
+TEXTEND
+BEGIN Mesg 137
+137 20
+112 75 162 96
+1
+1 1 16777215 65280
+136
+TM
+!ctx.syncLoss && (ctx.errCnt < errB)
+184
+TEXTBEGIN
+if (ctx.goodBlk) { 
+     ctx.sendByte(ACK);
+     if (ctx.anotherFile) ctx.sendByte('C');
+}
+else  ctx.sendByte(NAK);
+if (ctx.goodBlk1st) 
+     ctx.writeChunk();
+ctx.tm(TM_SOH);
+
+TEXTEND
+BEGIN Note 138
+138 50
+108 134 144 146
+1
+0 0 8454143 128
+136
+TEXTBEGIN
+Complete Receiver Statechart
+24 November 2021
+For Evil Medium.
+Copyright (c) 2021 Craig Scratchley
+craig_scratchley AT alumni.sfu.ca
+TEXTEND
+BEGIN GenericState 144
+144 10
+165 73 173 81
+1
+CAN
+0 65535 0
+0
+TEXTBEGIN
+
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN Mesg 148
+148 20
+157 95 187 109
+1
+1 1 16777215 65280
+146
+SER
+c == CAN
+74
+TEXTBEGIN
+ctx.closeTransferredFile();
+ctx.clearCan();
+ctx.result="SndCancelled";
+
+TEXTEND
+BEGIN Note 149
+149 50
+159 113 190 150
+1
+0 0 12632256 128
+377
+TEXTBEGIN
+The entry code:
+    POST("*",CONT);
+in the grey transient states immediately posts a continue (CONT) event that immediately kicks the StateChart out of those states.
+
+- Event SER is the event of a character being available from the Medium (simulating a SERial port)
+- Event KB_C is a cancel command received from keyboard -- higher priority
+- Event TM is a timeout event.
+TEXTEND
+BEGIN Mesg 151
+151 20
+153 61 180 70
+1
+1 1 16777215 65280
+150
+SER
+c==CAN
+21
+TEXTBEGIN
+ctx.tmPush(TM_2CHAR);
+TEXTEND
+BEGIN GenericState 154
+154 10
+31 39 52 47
+1
+FirstByteStat
+0 12582911 0
+0
+TEXTBEGIN
+
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN InitialState 155
+155 10
+44 50 48 54
+1
+InitialState
+BEGIN Transition 150
+150 40
+72 31 72 39
+118 144
+2 2 1 2
+2 153 68 154 68 
+1 154 68 169 68 
+0 169 68 169 72 
+3 169 72 169 73 
+BEGIN Transition 167
+167 40
+79 105 79 113
+162 109
+3 2 3 1
+2 46 114 46 115 
+0 46 115 46 125 
+1 46 125 158 125 
+0 158 125 158 114 
+3 158 114 158 113 
+BEGIN Transition 175
+175 40
+208 17 208 25
+171 154
+4 2 2 1
+2 85 41 84 41 
+1 84 41 53 41 
+3 53 41 52 41 
+BEGIN Transition 165
+165 40
+92 76 92 84
+178 154
+2 2 2 3
+2 49 64 50 64 
+1 50 64 55 64 
+0 55 64 55 45 
+1 55 45 53 45 
+3 53 45 52 45 
+BEGIN Transition 168
+168 40
+66 79 66 87
+186 109
+4 2 3 1
+2 11 107 10 107 
+1 10 107 7 107 
+0 7 107 7 128 
+1 7 128 158 128 
+0 158 128 158 114 
+3 158 114 158 113 
+BEGIN Transition 179
+179 40
+77 60 77 68
+178 159
+3 3 1 3
+2 30 69 30 70 
+0 30 70 30 79 
+1 30 79 52 79 
+0 52 79 52 82 
+3 52 82 52 83 
+BEGIN Transition 188
+188 40
+17 75 17 83
+186 178
+1 1 4 1
+2 15 103 15 102 
+0 15 102 15 100 
+1 15 100 11 100 
+0 11 100 11 66 
+1 11 66 23 66 
+3 23 66 24 66 
+BEGIN Transition 187
+187 40
+33 65 33 73
+159 186
+4 2 1 2
+2 34 88 33 88 
+1 33 88 18 88 
+0 18 88 18 102 
+3 18 102 18 103 
+BEGIN Transition 193
+193 40
+34 16 34 24
+154 154
+1 1 1 3
+2 36 39 36 38 
+0 36 38 36 36 
+1 36 36 46 36 
+0 46 36 46 38 
+3 46 38 46 39 
+BEGIN Transition 110
+110 40
+58 57 58 65
+103 171
+1 3 3 3
+2 90 58 90 57 
+1 90 57 91 57 
+0 91 57 91 47 
+3 91 47 91 46 
+BEGIN Transition 181
+181 40
+66 54 66 62
+178 109
+4 2 3 1
+2 24 64 23 64 
+1 23 64 5 64 
+0 5 64 5 131 
+1 5 131 158 131 
+0 158 131 158 114 
+3 158 114 158 113 
+BEGIN Transition 157
+157 40
+88 52 88 60
+154 178
+3 3 1 2
+2 36 47 36 48 
+0 36 48 36 58 
+3 36 58 36 59 
+BEGIN Transition 156
+156 40
+63 53 63 61
+155 154
+1 1 3 1
+2 46 50 46 49 
+0 46 49 46 48 
+3 46 48 46 47 
+BEGIN Transition 195
+195 40
+30 18 30 26
+154 109
+4 3 3 1
+2 31 41 30 41 
+1 30 41 3 41 
+0 3 41 3 148 
+1 3 148 93 148 
+0 93 148 93 131 
+1 93 131 158 131 
+0 158 131 158 114 
+3 158 114 158 113 
+BEGIN Transition 130
+130 40
+19 35 19 43
+197 129
+3 2 1 3
+2 94 83 94 84 
+0 94 84 94 101 
+3 94 101 94 102 
+BEGIN Transition 146
+146 40
+55 23 55 31
+144 109
+2 2 1 1
+2 173 77 174 77 
+1 174 77 186 77 
+0 186 77 186 106 
+1 186 106 158 106 
+0 158 106 158 108 
+3 158 108 158 109 
+BEGIN Transition 210
+210 40
+164 80 164 88
+144 118
+3 3 2 3
+2 167 81 167 82 
+0 167 82 167 91 
+1 167 91 154 91 
+3 154 91 153 91 
+BEGIN Transition 211
+211 40
+177 76 177 84
+144 118
+2 3 2 3
+2 173 79 174 79 
+1 174 79 184 79 
+0 184 79 184 91 
+1 184 91 154 91 
+3 154 91 153 91 
+BEGIN Transition 214
+214 40
+96 147 96 155
+183 183
+3 2 3 3
+2 96 151 96 152 
+0 96 152 96 155 
+1 96 155 49 155 
+0 49 155 49 152 
+3 49 152 49 151 
+BEGIN Transition 220
+220 40
+95 110 95 118
+129 109
+3 1 3 1
+2 94 114 94 115 
+0 94 115 94 123 
+1 94 123 158 123 
+0 158 123 158 114 
+3 158 114 158 113 
+BEGIN Transition 206
+206 40
+45 17 45 25
+118 118
+1 1 1 2
+2 45 21 45 20 
+0 45 20 45 18 
+1 45 18 81 18 
+0 81 18 81 20 
+3 81 20 81 21 
+BEGIN Transition 216
+216 40
+96 147 96 155
+183 109
+3 2 3 1
+2 96 151 96 152 
+0 96 152 96 165 
+1 96 165 158 165 
+0 158 165 158 114 
+3 158 114 158 113 
+BEGIN Transition 222
+222 40
+96 147 96 155
+183 109
+3 2 3 1
+2 96 151 96 152 
+0 96 152 96 172 
+1 96 172 158 172 
+0 158 172 158 114 
+3 158 114 158 113 
+BEGIN Transition 200
+200 40
+153 41 153 49
+118 118
+2 1 1 3
+2 153 45 154 45 
+1 154 45 186 45 
+0 186 45 186 16 
+1 186 16 117 16 
+0 117 16 117 20 
+3 117 20 117 21 
+BEGIN Transition 172
+172 40
+219 26 219 34
+171 109
+2 3 2 1
+2 108 43 109 43 
+1 109 43 114 43 
+0 114 43 114 47 
+1 114 47 188 47 
+0 188 47 188 111 
+1 188 111 161 111 
+3 161 111 160 111 
+BEGIN Transition 136
+136 40
+15 47 15 55
+129 197
+2 1 3 1
+2 101 105 102 105 
+1 102 105 105 105 
+0 105 105 105 97 
+1 105 97 112 97 
+0 112 97 112 88 
+1 112 88 102 88 
+0 102 88 102 84 
+3 102 84 102 83 
+BEGIN Transition 133
+133 40
+30 51 30 59
+129 109
+2 1 4 1
+2 101 105 102 105 
+1 102 105 152 105 
+0 152 105 152 111 
+1 152 111 155 111 
+3 155 111 156 111 
+BEGIN Transition 218
+218 40
+102 107 102 115
+129 129
+2 1 2 2
+2 101 105 102 105 
+1 102 105 105 105 
+0 105 105 105 108 
+1 105 108 102 108 
+3 102 108 101 108 
+BEGIN Transition 160
+160 40
+92 79 92 87
+159 162
+3 3 1 1
+2 40 93 40 94 
+0 40 94 40 103 
+3 40 103 40 104 
+BEGIN Transition 163
+163 40
+91 102 91 110
+162 101
+2 3 4 3
+2 58 111 59 111 
+1 59 111 68 111 
+0 68 111 68 79 
+1 68 79 59 79 
+0 59 79 59 76 
+1 59 76 79 76 
+3 79 76 80 76 
+BEGIN Transition 199
+199 40
+82 48 82 56
+198 101
+4 1 2 2
+2 105 78 104 78 
+1 104 78 98 78 
+3 98 78 97 78 
+BEGIN Transition 108
+108 40
+42 45 42 53
+101 103
+1 2 3 2
+2 88 74 88 73 
+0 88 73 88 71 
+1 88 71 93 71 
+0 93 71 93 69 
+1 93 69 88 69 
+0 88 69 88 67 
+3 88 67 88 66 
+BEGIN Transition 185
+185 40
+156 49 156 57
+184 118
+4 1 3 2
+2 85 120 84 120 
+1 84 120 81 120 
+0 81 120 81 117 
+3 81 117 81 116 
+BEGIN Mesg 158
+158 20
+14 44 39 62
+1
+1 1 16777215 65280
+157
+SER
+!ctx.KbCan && c==SOH
+105
+TEXTBEGIN
+ctx.getRestBlk();
+ctx.NCGbyte=NAK;
+if (!ctx.closeProb) {
+    ctx.errCnt=0;
+    ctx.closeProb = -1;
+}
+TEXTEND
+BEGIN GenericState 159
+159 10
+34 83 59 93
+1
+CondTransientCheck
+0 12632256 0
+20
+TEXTBEGIN
+     POST("*",CONT);
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN Mesg 161
+161 20
+40 94 74 109
+1
+1 1 16777215 65280
+160
+CONT
+ctx.anotherFile
+32
+TEXTBEGIN
+ctx.openFileForTransfer();
+
+
+
+TEXTEND
+BEGIN GenericState 162
+162 10
+34 104 58 114
+1
+CondTransientOpen
+0 12632256 0
+20
+TEXTBEGIN
+     POST("*",CONT);
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN Mesg 164
+164 20
+57 61 79 76
+1
+1 1 16777215 65280
+163
+CONT
+ctx.transferringFileD != -1
+91
+TEXTBEGIN
+ctx.sendByte(ACK);
+ctx.NCGbyte='C';
+ctx.sendByte(
+      ctx.NCGbyte);
+ctx.tm(TM_SOH);
+
+TEXTEND
+BEGIN Mesg 166
+166 20
+55 44 76 60
+1
+1 1 16777215 65280
+165
+CONT
+!ctx.syncLoss && (ctx.errCnt < errB)  && !ctx.goodBlk
+52
+TEXTBEGIN
+ctx.sendByte(NAK);
+ctx.errCnt++;
+ctx.tm(TM_SOH);
+
+TEXTEND
+BEGIN Mesg 169
+169 20
+7 123 28 129
+1
+1 1 16777215 65280
+168
+TM
+
+20
+TEXTBEGIN
+ctx.result="Done";
+
+TEXTEND
+BEGIN Mesg 170
+170 20
+46 116 77 129
+1
+1 1 16777215 65280
+167
+CONT
+ctx.transferringFileD == -1
+37
+TEXTBEGIN
+ctx.cans();
+ctx.result="CreatError";
+TEXTEND
+BEGIN GenericState 171
+171 10
+85 36 108 46
+1
+CondTransientEOT
+0 12632256 0
+20
+TEXTBEGIN
+     POST("*",CONT);
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN Mesg 176
+176 20
+59 26 87 42
+1
+1 1 16777215 65280
+175
+CONT
+!ctx.closeProb
+96
+TEXTBEGIN
+ctx.sendByte(ACK);
+ctx.NCGbyte='C';
+ctx.sendByte(ctx.NCGbyte);
+ctx.errCnt=0;
+ctx.tm(TM_SOH);
+TEXTEND
+BEGIN Mesg 177
+177 20
+129 47 156 58
+1
+1 1 16777215 65280
+172
+CONT
+ctx.closeProb
+38
+TEXTBEGIN
+ctx.cans(); 
+ctx.result="CloseError";
+TEXTEND
+BEGIN GenericState 178
+178 10
+24 59 49 69
+1
+CondlTransientStat
+0 12632256 0
+20
+TEXTBEGIN
+     POST("*",CONT);
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN Mesg 180
+180 20
+30 68 56 81
+1
+1 1 16777215 65280
+179
+CONT
+!ctx.syncLoss && (ctx.errCnt < errB) && ctx.goodBlk
+26
+TEXTBEGIN
+ctx.checkForAnotherFile();
+TEXTEND
+BEGIN Mesg 182
+182 20
+5 131 45 149
+1
+1 1 16777215 65280
+181
+CONT
+ctx.syncLoss || ctx.errCnt >= errB
+123
+TEXTBEGIN
+ctx.cans();
+if (ctx.syncLoss)
+     ctx.result="LossOfSync at Stat Blk";
+else
+     ctx.result="ExcessiveErrors at Stat";
+TEXTEND
+BEGIN InitialState 184
+184 10
+85 118 89 122
+1
+InitialState
+BEGIN GenericState 186
+186 10
+11 103 26 111
+1
+AreWeDone
+0 12582911 0
+0
+TEXTBEGIN
+
+TEXTEND
+0
+TEXTBEGIN
+
+TEXTEND
+BEGIN Mesg 189
+189 20
+11 74 32 87
+1
+1 1 16777215 65280
+188
+SER
+!ctx.KbCan && c==SOH
+32
+TEXTBEGIN
+ctx.getRestBlk();
+ctx.errCnt++;
+TEXTEND
+BEGIN Note 190
+190 50
+109 28 150 38
+1
+0 0 8454016 128
+161
+TEXTBEGIN
+Due to a bug in SmartState studio, in this StateChart, please interpret && as &&&& -- a logical AND.  Do not interpret it as a bitwise AND as you normally would.
+TEXTEND
+BEGIN Mesg 191
+191 20
+18 92 41 107
+1
+1 1 16777215 65280
+187
+CONT
+!ctx.anotherFile
+36
+TEXTBEGIN
+ctx.sendByte(ACK);
+ctx.tm(TM_SOH); 
+TEXTEND
+BEGIN Mesg 194
+194 20
+25 23 59 40
+1
+1 1 16777215 65280
+193
+SER
+c==EOT && !ctx.closeProb && ctx.errCnt < errB
+78
+TEXTBEGIN
+ctx.sendByte(ACK);
+ctx.sendByte(ctx.NCGbyte);
+ctx.errCnt++;  ctx.tm(TM_SOH);
+TEXTEND
+BEGIN Mesg 196
+196 20
+67 137 93 156
+1
+1 1 16777215 65280
+195
+SER
+c==EOT && !ctx.closeProb && ctx.errCnt >= errB
+40
+TEXTBEGIN
+ctx.cans();
+ctx.result="ExcessiveEOTs";
+TEXTEND
+BEGIN InitialState 198
+198 10
+105 76 109 80
+1
+InitialState
+BEGIN Mesg 202
+202 20
+155 16 194 30
+1
+1 1 16777215 65280
+200
+TM
+ctx.errCnt < errB && !ctx.KbCan
+58
+TEXTBEGIN
+ctx.sendByte(ctx.NCGbyte);
+ctx.errCnt++;
+ctx.tm(TM_SOH);
+TEXTEND
+BEGIN Mesg 209
+209 20
+45 11 69 21
+1
+1 1 16777215 65280
+206
+SER
+!ctx.KbCan  && c!=CAN
+12
+TEXTBEGIN
+ctx.purge();
+TEXTEND
+BEGIN Mesg 212
+212 20
+154 84 169 93
+1
+1 1 16777215 65280
+210
+TM
+!ctx.KbCan
+12
+TEXTBEGIN
+ctx.tmPop();
+TEXTEND
+BEGIN Mesg 213
+213 20
+171 80 189 92
+1
+1 1 16777215 65280
+211
+SER
+c != CAN && !ctx.KbCan
+26
+TEXTBEGIN
+ctx.purge();
+ctx.tmPop();
+TEXTEND
+BEGIN Mesg 215
+215 20
+57 150 79 158
+1
+1 1 16777215 65280
+214
+KB_C
+
+17
+TEXTBEGIN
+ctx.KbCan = true;
+TEXTEND
+BEGIN Mesg 217
+217 20
+104 152 149 168
+1
+1 1 16777215 65280
+216
+SER
+
+127
+TEXTBEGIN
+ctx.purge();  ctx.cans();
+if (ctx.KbCan)
+    ctx.result = "KbCancelled (delayed)";
+else
+    ctx.result = "ExcessiveErrors";
+TEXTEND
+BEGIN Mesg 219
+219 20
+101 108 122 116
+1
+1 1 16777215 65280
+218
+SER
+
+12
+TEXTBEGIN
+ctx.purge();
+TEXTEND
+BEGIN Mesg 221
+221 20
+95 116 133 126
+1
+1 1 16777215 65280
+220
+KB_C
+
+50
+TEXTBEGIN
+ctx.cans();
+ctx.result="kbCancelled (immediate)";
+TEXTEND
+BEGIN Mesg 223
+223 20
+68 162 102 176
+1
+1 1 16777215 65280
+222
+TM
+
+101
+TEXTBEGIN
+ctx.cans();
+if (ctx.KbCan)
+     ctx.result="KbCancelled";
+else
+     ctx.result="ExcessiveErrors";
+TEXTEND
+END DATA
+yReceiver
+ReceiverY
+ReceiverY.h
+
+69
+INCLUDE BEGIN
+#include "AtomicCOUT.h"
+//#include <iostream>
+#include <stdlib.h>
+
+INCLUDE END
+20
+DECL BEGIN
+#define c wParam
+
+
+DECL END
+Copyright (c) 2021 W. Craig Scratchley
+77
+DESC BEGIN
+ Simple YMODEM Receiver
+
+Copyright (c) 2021 Craig Scratchley
+wcs AT sfu.ca
+DESC END
+0
+INCLUDE BEGIN
+
+INCLUDE END
+0
+DECL BEGIN
+
+DECL END
+Context
+
+0
+DECL BEGIN
+
+DECL END
+Context
+
+0
+DECL BEGIN
+
+DECL END

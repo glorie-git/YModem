@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep"/>
+			<item value="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part5"/>
+			<item value="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part5-stable"/>
+			<item value="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test"/>
+			<item value="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217"/>
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="/mnt/hgfs/VMsf2020/Ensc351Part1-1217-y.zip"/>
+			<item value="/mnt/hgfs/VMsf2020/Ensc351Part1-1217.zip"/>
+		</list>
+	</section>
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1630878651626"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351ymodLib"/>
+			<item value="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part5-stable"/>
+			<item value="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351part2-1217"/>
+		</list>
+	</section>
+</section>

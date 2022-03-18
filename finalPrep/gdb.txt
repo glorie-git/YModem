@@ -1,0 +1,1496 @@
+~"+handle SIGPIPE nostop\n"
+~"+skip -rfu ^std::\n"
+~"Function(s) ^std:: will be skipped when stepping.\n"
+~"+skip -rfu ^__ubsan::\n"
+~"Function(s) ^__ubsan:: will be skipped when stepping.\n"
+~"+skip file /mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351/ScopedMutex.cpp \n"
+~"File /mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351/ScopedMutex.cpp will be skipped when stepping.\n"
+~"+set sysroot /\n"
+=cmd-param-changed,param="sysroot",value="/"
+~"+python\n"
+&"Traceback (most recent call last):\n"
+&"  File \"/build/glibc-YYA7BZ/glibc-2.31/nptl/nptl-printers.py\", line 38, in <module>\n"
+&"    from nptl_lock_constants import *\n"
+&"ModuleNotFoundError: No module named 'nptl_lock_constants'\n"
+14^done
+(gdb) 
+15^done,groups=[{id="i1",type="process"}]
+(gdb) 
+16^done
+(gdb) 
+17^done
+(gdb) 
+18^done
+(gdb) 
+19^done
+(gdb) 
+20^done,value="auto"
+(gdb) 
+21^done
+(gdb) 
+~"$1 = 0xff\n"
+22^done
+(gdb) 
+23^done,value="8"
+(gdb) 
+24^done
+(gdb) 
+~"The target endianness is set automatically (currently little endian)\n"
+25^done
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp.\n"
+26^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp:240",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp:240"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp.\n"
+27^done,bkpt={number="2",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:88",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:88"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp.\n"
+28^done,bkpt={number="3",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:222",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:222"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp.\n"
+29^done,bkpt={number="4",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:211",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:211"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+30^done,bkpt={number="5",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:157",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:157"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp.\n"
+31^done,bkpt={number="6",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:107",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:107"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp.\n"
+32^done,bkpt={number="7",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:83",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:83"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+33^done,bkpt={number="8",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:118",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:118"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+34^done,bkpt={number="9",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:95",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:95"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+35^done,bkpt={number="10",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:99",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:99"}
+(gdb) 
+36^done,bkpt={number="11",type="breakpoint",disp="keep",enabled="y",addr="0x0000000000007db2",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",thread-groups=["i1"],times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:396"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+37^done,bkpt={number="12",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:64",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:64"}
+(gdb) 
+38^done,bkpt={number="13",type="breakpoint",disp="keep",enabled="y",addr="0x0000000000007d99",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",thread-groups=["i1"],times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:395"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+39^done,bkpt={number="14",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:167",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:167"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+40^done,bkpt={number="15",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:114",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:114"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+41^done,bkpt={number="16",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:66",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:66"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+42^done,bkpt={number="17",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:70",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:70"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp.\n"
+43^done,bkpt={number="18",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:145",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:145"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp.\n"
+44^done,bkpt={number="19",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp:397",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp:397"}
+(gdb) 
+45^done,bkpt={number="20",type="breakpoint",disp="del",enabled="y",addr="0x0000000000007afc",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="371",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+46^done
+(gdb) 
+=thread-group-started,id="i1",pid="3977"
+=thread-created,id="1",group-id="i1"
+=breakpoint-modified,bkpt={number="11",type="breakpoint",disp="keep",enabled="y",addr="0x000055555555bdb2",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",thread-groups=["i1"],times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:396"}
+=breakpoint-modified,bkpt={number="13",type="breakpoint",disp="keep",enabled="y",addr="0x000055555555bd99",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",thread-groups=["i1"],times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:395"}
+=breakpoint-modified,bkpt={number="20",type="breakpoint",disp="del",enabled="y",addr="0x000055555555bafc",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="371",thread-groups=["i1"],times="0",original-location="main"}
+=library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7fd0100",to="0x00007ffff7ff2674"}]
+47^running
+*running,thread-id="all"
+(gdb) 
+48^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["3"]}]
+(gdb) 
+=library-loaded,id="/lib/x86_64-linux-gnu/libasan.so.5",target-name="/lib/x86_64-linux-gnu/libasan.so.5",host-name="/lib/x86_64-linux-gnu/libasan.so.5",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff75a1a80",to="0x00007ffff76ce172"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libpthread.so.0",target-name="/lib/x86_64-linux-gnu/libpthread.so.0",host-name="/lib/x86_64-linux-gnu/libpthread.so.0",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7563ae0",to="0x00007ffff75734d5"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libstdc++.so.6",target-name="/lib/x86_64-linux-gnu/libstdc++.so.6",host-name="/lib/x86_64-linux-gnu/libstdc++.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7418160",to="0x00007ffff7500452"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libgcc_s.so.1",target-name="/lib/x86_64-linux-gnu/libgcc_s.so.1",host-name="/lib/x86_64-linux-gnu/libgcc_s.so.1",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff73625e0",to="0x00007ffff7373045"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libc.so.6",target-name="/lib/x86_64-linux-gnu/libc.so.6",host-name="/lib/x86_64-linux-gnu/libc.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7192630",to="0x00007ffff730720d"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libdl.so.2",target-name="/lib/x86_64-linux-gnu/libdl.so.2",host-name="/lib/x86_64-linux-gnu/libdl.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7168220",to="0x00007ffff7169179"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/librt.so.1",target-name="/lib/x86_64-linux-gnu/librt.so.1",host-name="/lib/x86_64-linux-gnu/librt.so.1",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff715d720",to="0x00007ffff7160d70"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libm.so.6",target-name="/lib/x86_64-linux-gnu/libm.so.6",host-name="/lib/x86_64-linux-gnu/libm.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff701a3c0",to="0x00007ffff70c0f18"}]
+=breakpoint-modified,bkpt={number="20",type="breakpoint",disp="del",enabled="y",addr="0x000055555555bafc",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="371",thread-groups=["i1"],times="1",original-location="main"}
+~"\n"
+~"Temporary breakpoint 20, main () at ../src/myioFinal.cpp:371\n"
+~"371\tint main() { // debug launch configuration ensures gdb runs at FIFO priority 98 ...\n"
+*stopped,reason="breakpoint-hit",disp="del",bkptno="20",frame={addr="0x000055555555bafc",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="371",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+=breakpoint-deleted,id="20"
+49^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["3"]}]
+(gdb) 
+50^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="finalPrep",frame={level="0",addr="0x000055555555bafc",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="371",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+51^done,depth="1"
+(gdb) 
+52^done
+(gdb) 
+53^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="finalPrep",frame={level="0",addr="0x000055555555bafc",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="371",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+54^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["3"]}]
+(gdb) 
+55^done,locals=[{name="cpu_set",value="{__bits = {5332260632633328521, 5260203032824038537, 13945757781623095945, 54466816808436040, 14520741776098066304, 9495709284996288320, 14931754949523212263, 8415403549906803983, 18359724225709295624, 14306214770632723455, 18446583729307486536, 399493256281093096, 5242903858543362956, 9892156583611348365, 5011380480172026079, 5330606162798701548}}"},{name="threadName",value="0x7ffff7558dc0 <std::wclog> \"04U\\367\\377\\177\""},{name="ptr",value="0x7ffff7553418 <vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >>"}]
+(gdb) 
+56^done,name="var1",numchild="1",value="{...}",type="cpu_set_t",thread-id="1",has_more="0"
+(gdb) 
+57^done,name="var2",numchild="1",value="0x7ffff7558dc0 <std::wclog> \"04U\\367\\377\\177\"",type="const char *",thread-id="1",has_more="0"
+(gdb) 
+58^done,name="var3",numchild="0",value="0x7ffff7553418 <vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >>",type="void *",thread-id="1",has_more="0"
+(gdb) 
+59^running
+*running,thread-id="all"
+(gdb) 
+=thread-created,id="2",group-id="i1"
+*running,thread-id="2"
+=breakpoint-modified,bkpt={number="13",type="breakpoint",disp="keep",enabled="y",addr="0x000055555555bd99",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",thread-groups=["i1"],times="1",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:395"}
+~"\n"
+~"Thread 1 \"Pri\" hit Breakpoint 13, main () at ../src/myioFinal.cpp:395\n"
+~"395\t\t\tmyWrite(daSktPr[0], \"123\", 4); // don't forget NUL termination character\n"
+*stopped,reason="breakpoint-hit",disp="keep",bkptno="13",frame={addr="0x000055555555bd99",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+60^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555bd99",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"},state="stopped",core="0"},{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c7b1",func="futex_abstimed_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="abstime",value="0x7ffff39fe6b0"},{name="clockid",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="320",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+61^done,new-thread-id="1",frame={level="0",addr="0x000055555555bd99",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}
+(gdb) 
+62^done,locals=[{name="sch",value="{sched_priority = 60}"},{name="coutThread",value="{<std::thread> = {_M_id = {_M_thread = 140737280734976}}, <No data fields>}"},{name="cpu_set",value="{__bits = {140737488346097, 93824992292755, 140737340872352, 140737343357936, 140737340891080, 140737339158439, 0, 0, 140737488346160, 3, 140737488346224, 140737343357277, 140737488346192, 93824992250970, 140737488346552, 93824992365440}}"},{name="threadName",value="0x55555556c820 \"Pri\""},{name="ptr",value="0x62a000000200"}]
+(gdb) 
+63^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+64^done,depth="1"
+(gdb) 
+65^done
+(gdb) 
+66^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555bd99",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+67^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c7b1",func="futex_abstimed_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="abstime",value="0x7ffff39fe6b0"},{name="clockid",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="320",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+68^done,name="var4",numchild="1",value="{...}",type="sched_param",thread-id="1",has_more="0"
+(gdb) 
+69^done,name="var5",numchild="1",value="{...}",type="pthreadSupport::posixThread",thread-id="1",has_more="0"
+(gdb) 
+70^done,changelist=[]
+(gdb) 
+71^done,changelist=[{name="var2",value="0x55555556c820 \"Pri\"",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+72^done,changelist=[{name="var3",value="0x62a000000200",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+73^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a833",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c860"},{name="nbyte",value="93824992259397"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="268",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+74^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c7b1",func="futex_abstimed_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="abstime",value="0x7ffff39fe6b0"},{name="clockid",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="320",arch="i386:x86-64"}
+(gdb) 
+75^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c7b1",func="futex_abstimed_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="abstime",value="0x7ffff39fe6b0"},{name="clockid",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="320",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+76^done,depth="2"
+(gdb) 
+77^done
+(gdb) 
+78^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a833",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c860"},{name="nbyte",value="93824992259397"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="268",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+79^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+80^done,locals=[{name="desInfoLk",value="{_M_pm = 0x7fffffffdb70, _M_owns = 110}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (expired, weak count 1209) = {get() = 0x7fffffffdcc0}"}]
+(gdb) 
+81^done,stack=[frame={level="0",addr="0x000055555555a833",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="268",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+82^done,name="var6",numchild="0",value="3",type="int",thread-id="1",has_more="0"
+(gdb) 
+83^done,name="var7",numchild="0",value="0x55555556c860",type="const void *",thread-id="1",has_more="0"
+(gdb) 
+84^done,name="var8",numchild="0",value="93824992259397",type="size_t",thread-id="1",has_more="0"
+(gdb) 
+85^done,name="var9",numchild="1",value="{...}",type="std::shared_lock<std::shared_mutex>",thread-id="1",has_more="0"
+(gdb) 
+86^done,name="var10",numchild="0",value="{...}",type="(anonymous namespace)::socketInfoClassSp",thread-id="1",dynamic="1",has_more="1"
+(gdb) 
+87^done,numchild="1",children=[child={name="var10.get()",exp="get()",numchild="8",type="std::__shared_ptr<(anonymous namespace)::socketInfoClass, (__gnu_cxx::_Lock_policy)2>::element_type *",thread-id="1"}],has_more="0"
+(gdb) 
+88^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a8e2",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="269",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+89^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+90^done,depth="2"
+(gdb) 
+91^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = false}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+92^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+93^done,depth="2"
+(gdb) 
+94^done
+(gdb) 
+95^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a8e2",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="269",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+96^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+97^done,changelist=[]
+(gdb) 
+98^done,changelist=[{name="var7",value="0x55555556c8a0",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+99^done,changelist=[{name="var8",value="4",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+100^done,changelist=[]
+(gdb) 
+101^done,changelist=[{name="var10.get()",value="0x610000000050",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+102^done,stack=[frame={level="0",addr="0x000055555555a8e2",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="269",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+103^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a8f6",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="270",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+104^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+105^done,depth="2"
+(gdb) 
+106^done,depth="2"
+(gdb) 
+107^done,changelist=[]
+(gdb) 
+108^done,changelist=[]
+(gdb) 
+109^done,changelist=[]
+(gdb) 
+110^done,changelist=[]
+(gdb) 
+111^done,changelist=[]
+(gdb) 
+112^done
+(gdb) 
+113^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a8f6",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="270",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+114^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+115^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+116^done,stack=[frame={level="0",addr="0x000055555555a8f6",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="270",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+117^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a92e",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="271",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+118^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 2, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+119^done,depth="2"
+(gdb) 
+120^done
+(gdb) 
+121^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a92e",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="271",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+122^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+123^done,changelist=[]
+(gdb) 
+124^done,changelist=[]
+(gdb) 
+125^done,changelist=[]
+(gdb) 
+126^done,changelist=[]
+(gdb) 
+127^done,changelist=[]
+(gdb) 
+128^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+129^done,stack=[frame={level="0",addr="0x000055555555a92e",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="271",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+130^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a943",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="272",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+131^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+132^done,depth="2"
+(gdb) 
+133^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 2, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+134^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+135^done,depth="2"
+(gdb) 
+136^done
+(gdb) 
+137^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a943",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="272",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+138^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+139^done,changelist=[]
+(gdb) 
+140^done,changelist=[]
+(gdb) 
+141^done,changelist=[]
+(gdb) 
+142^done,changelist=[]
+(gdb) 
+143^done,changelist=[]
+(gdb) 
+144^done,stack=[frame={level="0",addr="0x000055555555a943",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="272",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+145^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a994",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="274",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+146^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 2, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+147^done,depth="2"
+(gdb) 
+148^done
+(gdb) 
+149^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a994",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="274",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+150^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+151^done,changelist=[]
+(gdb) 
+152^done,changelist=[]
+(gdb) 
+153^done,changelist=[]
+(gdb) 
+154^done,changelist=[]
+(gdb) 
+155^done,changelist=[]
+(gdb) 
+156^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b0"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+157^done,stack=[frame={level="0",addr="0x000055555555a994",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="274",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+158^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+159^done,new-thread-id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555aa7e",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="270",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+160^done,depth="2"
+(gdb) 
+161^done
+(gdb) 
+162^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555aa7e",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="270",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+163^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+164^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 2, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+165^done,changelist=[]
+(gdb) 
+166^done,changelist=[]
+(gdb) 
+167^done,changelist=[]
+(gdb) 
+168^done,changelist=[]
+(gdb) 
+169^done,changelist=[]
+(gdb) 
+170^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+171^done,stack=[frame={level="0",addr="0x000055555555aa7e",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="270",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+172^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555aa8b",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="269",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+173^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+174^done,depth="2"
+(gdb) 
+175^done,depth="2"
+(gdb) 
+176^done,changelist=[]
+(gdb) 
+177^done,changelist=[]
+(gdb) 
+178^done,changelist=[]
+(gdb) 
+179^done,changelist=[]
+(gdb) 
+180^done,changelist=[]
+(gdb) 
+181^done
+(gdb) 
+182^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555aa8b",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="269",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+183^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+184^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+185^done,stack=[frame={level="0",addr="0x000055555555aa8b",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="269",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+186^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555aa9b",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="268",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+187^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+188^done,depth="2"
+(gdb) 
+189^done
+(gdb) 
+190^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555aa9b",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="268",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+191^done,changelist=[]
+(gdb) 
+192^done,changelist=[]
+(gdb) 
+193^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+194^done,changelist=[]
+(gdb) 
+195^done,changelist=[]
+(gdb) 
+196^done,changelist=[]
+(gdb) 
+197^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+198^done,stack=[frame={level="0",addr="0x000055555555aa9b",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="268",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+199^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555ab1b",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="281",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+200^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+201^done,depth="2"
+(gdb) 
+202^done,depth="2"
+(gdb) 
+203^done,changelist=[]
+(gdb) 
+204^done,changelist=[]
+(gdb) 
+205^done,changelist=[]
+(gdb) 
+206^done,changelist=[]
+(gdb) 
+207^done,changelist=[]
+(gdb) 
+208^done
+(gdb) 
+209^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555ab1b",func="myWrite",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="nbyte",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="281",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+210^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+211^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+212^done,stack=[frame={level="0",addr="0x000055555555ab1b",func="myWrite",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="281",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdb2",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="395",arch="i386:x86-64"}]
+(gdb) 
+213^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+=breakpoint-modified,bkpt={number="11",type="breakpoint",disp="keep",enabled="y",addr="0x000055555555bdb2",func="main()",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",thread-groups=["i1"],times="1",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:396"}
+~"\n"
+~"Thread 1 \"Pri\" hit Breakpoint 11, main () at ../src/myioFinal.cpp:396\n"
+~"396\t\t    myReadcond2(daSktPr[0], B2, 4, 4, 0);\n"
+*stopped,reason="breakpoint-hit",disp="keep",bkptno="11",frame={addr="0x000055555555bdb2",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+214^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+215^done,depth="1"
+(gdb) 
+216^done
+(gdb) 
+217^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555bdb2",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+218^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+219^done,locals=[{name="sch",value="{sched_priority = 60}"},{name="coutThread",value="{<std::thread> = {_M_id = {_M_thread = 140737280734976}}, <No data fields>}"},{name="cpu_set",value="{__bits = {140737488346097, 93824992292755, 140737340872352, 140737343357936, 140737340891080, 140737339158439, 0, 0, 140737488346160, 3, 140737488346224, 140737343357277, 140737488346192, 93824992250970, 140737488346552, 93824992365440}}"},{name="threadName",value="0x55555556c820 \"Pri\""},{name="ptr",value="0x62a000000200"}]
+(gdb) 
+220^done,changelist=[]
+(gdb) 
+221^done,changelist=[]
+(gdb) 
+222^done,changelist=[]
+(gdb) 
+223^done,changelist=[]
+(gdb) 
+224^done,changelist=[]
+(gdb) 
+225^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+226^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a5b8",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="n",value="-9552"},{name="min",value="0"},{name="time",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="257",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+227^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+228^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+229^done,depth="2"
+(gdb) 
+230^done
+(gdb) 
+231^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a5b8",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x55555556c8a0"},{name="n",value="-9552"},{name="min",value="0"},{name="time",value="4"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="257",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+232^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+233^done,locals=[{name="desInfoLk",value="{_M_pm = 0x7fffffffdb70, _M_owns = 110}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 92995584, weak count 102105) = {get() = 0x7fffffffdcc0}"}]
+(gdb) 
+234^done,stack=[frame={level="0",addr="0x000055555555a5b8",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="257",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+235^done,changelist=[{name="var6",in_scope="false",type_changed="false",has_more="0"}]
+(gdb) 
+236^done,ndeleted="1"
+(gdb) 
+237^done,name="var11",numchild="0",value="3",type="int",thread-id="1",has_more="0"
+(gdb) 
+238^done,changelist=[{name="var7",in_scope="false",type_changed="false",has_more="0"}]
+(gdb) 
+239^done,name="var12",numchild="0",value="-9552",type="int",thread-id="1",has_more="0"
+(gdb) 
+240^done,name="var13",numchild="0",value="0",type="int",thread-id="1",has_more="0"
+(gdb) 
+241^done,name="var14",numchild="0",value="4",type="int",thread-id="1",has_more="0"
+(gdb) 
+242^done,changelist=[{name="var9",in_scope="false",type_changed="false",has_more="0"}]
+(gdb) 
+243^done,changelist=[{name="var10",in_scope="false",type_changed="false",dynamic="1",has_more="0"}]
+(gdb) 
+244^done,ndeleted="1"
+(gdb) 
+245^done,name="var15",numchild="0",value="0x55555556c8a0",type="void *",thread-id="1",has_more="0"
+(gdb) 
+246^done,ndeleted="1"
+(gdb) 
+247^done,name="var16",numchild="1",value="{...}",type="std::shared_lock<std::shared_mutex>",thread-id="1",has_more="0"
+(gdb) 
+248^done,ndeleted="2"
+(gdb) 
+249^done,name="var17",numchild="0",value="{...}",type="(anonymous namespace)::socketInfoClassSp",thread-id="1",dynamic="1",has_more="1"
+(gdb) 
+250^done,numchild="1",children=[child={name="var17.get()",exp="get()",numchild="8",type="std::__shared_ptr<(anonymous namespace)::socketInfoClass, (__gnu_cxx::_Lock_policy)2>::element_type *",thread-id="1"}],has_more="0"
+(gdb) 
+251^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a673",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="258",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+252^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+253^done,depth="2"
+(gdb) 
+254^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+255^done,depth="2"
+(gdb) 
+256^done
+(gdb) 
+257^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a673",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="258",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+258^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+259^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+260^done,changelist=[]
+(gdb) 
+261^done,changelist=[{name="var15",value="0x555555574c80 <B2>",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+262^done,changelist=[{name="var12",value="4",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+263^done,changelist=[{name="var13",value="4",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+264^done,changelist=[{name="var14",value="0",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+265^done,changelist=[]
+(gdb) 
+266^done,changelist=[{name="var17.get()",value="0x610000000050",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+267^done,stack=[frame={level="0",addr="0x000055555555a673",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="258",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+268^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a687",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="259",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+269^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+270^done,depth="2"
+(gdb) 
+271^done,depth="2"
+(gdb) 
+272^done,changelist=[]
+(gdb) 
+273^done,changelist=[]
+(gdb) 
+274^done,changelist=[]
+(gdb) 
+275^done,changelist=[]
+(gdb) 
+276^done,changelist=[]
+(gdb) 
+277^done,changelist=[]
+(gdb) 
+278^done,changelist=[]
+(gdb) 
+279^done
+(gdb) 
+280^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a687",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="259",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+281^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+282^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+283^done,stack=[frame={level="0",addr="0x000055555555a687",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="259",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+284^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a6bf",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="260",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+285^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+286^done,depth="2"
+(gdb) 
+287^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = true}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 2, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+288^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+289^done,depth="2"
+(gdb) 
+290^done
+(gdb) 
+291^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a6bf",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="260",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+292^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+293^done,changelist=[]
+(gdb) 
+294^done,changelist=[]
+(gdb) 
+295^done,changelist=[]
+(gdb) 
+296^done,changelist=[]
+(gdb) 
+297^done,changelist=[]
+(gdb) 
+298^done,changelist=[]
+(gdb) 
+299^done,changelist=[]
+(gdb) 
+300^done,stack=[frame={level="0",addr="0x000055555555a6bf",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="260",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+301^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a6cc",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="261",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+302^done,depth="11"
+(gdb) 
+303^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = false}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 2, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+304^done,depth="2"
+(gdb) 
+305^done,depth="2"
+(gdb) 
+306^done,changelist=[]
+(gdb) 
+307^done,changelist=[]
+(gdb) 
+308^done,changelist=[]
+(gdb) 
+309^done,changelist=[]
+(gdb) 
+310^done,changelist=[]
+(gdb) 
+311^done,changelist=[]
+(gdb) 
+312^done,changelist=[]
+(gdb) 
+313^done
+(gdb) 
+314^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a6cc",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="261",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+315^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+316^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+317^done,stack=[frame={level="0",addr="0x000055555555a6cc",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="261",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+318^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a72d",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+319^done,depth="11"
+(gdb) 
+320^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = false}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 2, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+321^done,depth="2"
+(gdb) 
+322^done
+(gdb) 
+323^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a72d",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+324^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+325^done,changelist=[]
+(gdb) 
+326^done,changelist=[]
+(gdb) 
+327^done,changelist=[]
+(gdb) 
+328^done,changelist=[]
+(gdb) 
+329^done,changelist=[]
+(gdb) 
+330^done,changelist=[]
+(gdb) 
+331^done,changelist=[]
+(gdb) 
+332^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+333^done,stack=[frame={level="0",addr="0x000055555555a72d",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+334^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+335^done,new-thread-id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559520",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="32"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="158",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+336^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+337^done,depth="3"
+(gdb) 
+338^done
+(gdb) 
+339^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559520",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="32"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="158",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+340^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+341^done,locals=[{name="bytesRead",value="32767"},{name="socketLk",value="{_M_device = 0x7fffffffda10, _M_owns = 122}"}]
+(gdb) 
+342^done,stack=[frame={level="0",addr="0x0000555555559520",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="158",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+343^done,name="var18",numchild="2",value="0x610000000050",type="(anonymous namespace)::socketInfoClass * const",thread-id="1",has_more="0"
+(gdb) 
+344^done,name="var19",numchild="0",value="3",type="int",thread-id="1",has_more="0"
+(gdb) 
+345^done,name="var20",numchild="0",value="0x555555574c80 <B2>",type="void *",thread-id="1",has_more="0"
+(gdb) 
+346^done,name="var21",numchild="0",value="4",type="int",thread-id="1",has_more="0"
+(gdb) 
+347^done,name="var22",numchild="0",value="4",type="int",thread-id="1",has_more="0"
+(gdb) 
+348^done,name="var23",numchild="0",value="32",type="int",thread-id="1",has_more="0"
+(gdb) 
+349^done,name="var24",numchild="0",value="32767",type="int",thread-id="1",has_more="0"
+(gdb) 
+350^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559538",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="161",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+351^done,locals=[{name="bytesRead",value="32767"},{name="socketLk",value="{_M_device = 0x7fffffffda10, _M_owns = 122}"}]
+(gdb) 
+352^done,depth="3"
+(gdb) 
+353^done,depth="3"
+(gdb) 
+354^done,changelist=[]
+(gdb) 
+355^done,changelist=[]
+(gdb) 
+356^done,changelist=[]
+(gdb) 
+357^done,changelist=[]
+(gdb) 
+358^done,changelist=[]
+(gdb) 
+359^done,changelist=[{name="var23",value="0",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+360^done,changelist=[]
+(gdb) 
+361^done
+(gdb) 
+362^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559538",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="161",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+363^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+364^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+365^done,stack=[frame={level="0",addr="0x0000555555559538",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="161",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+366^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559555",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="164",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+367^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+368^done,depth="2"
+(gdb) 
+369^done,locals=[{name="bytesRead",value="32767"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+370^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+371^done,depth="3"
+(gdb) 
+372^done
+(gdb) 
+373^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559555",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="164",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+374^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+375^done,changelist=[]
+(gdb) 
+376^done,changelist=[]
+(gdb) 
+377^done,changelist=[]
+(gdb) 
+378^done,changelist=[]
+(gdb) 
+379^done,changelist=[]
+(gdb) 
+380^done,changelist=[]
+(gdb) 
+381^done,changelist=[]
+(gdb) 
+382^done,stack=[frame={level="0",addr="0x0000555555559555",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="164",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+383^done,name="var25",numchild="1",value="{...}",type="std::unique_lock<std::mutex>",thread-id="1",has_more="0"
+(gdb) 
+384^done,numchild="2",children=[child={name="var18.public",exp="public",numchild="1",thread-id="1"},child={name="var18.private",exp="private",numchild="7",thread-id="1"}],has_more="0"
+(gdb) 
+385^done,numchild="1",children=[child={name="var18.public.pair",exp="pair",numchild="0",type="int",thread-id="1"}],has_more="0"
+(gdb) 
+386^done,numchild="7",children=[child={name="var18.private.totalWritten",exp="totalWritten",numchild="0",type="unsigned int",thread-id="1"},child={name="var18.private.maxTotalCanRead",exp="maxTotalCanRead",numchild="0",type="unsigned int",thread-id="1"},child={name="var18.private.cvDrain",exp="cvDrain",numchild="1",type="std::condition_variable",thread-id="1"},child={name="var18.private.cvRead",exp="cvRead",numchild="1",type="std::condition_variable",thread-id="1"},child={name="var18.private.circBuffer",exp="circBuffer",numchild="1",type="CircBuf<char>",thread-id="1"},child={name="var18.private.connectionReset",exp="connectionReset",numchild="0",type="bool",thread-id="1"},child={name="var18.private.socketInfoMutex",exp="socketInfoMutex",numchild="1",type="std::mutex",thread-id="1"}],has_more="0"
+(gdb) 
+387^done,path_expr="((this)->pair)"
+(gdb) 
+388^done,path_expr="((this)->totalWritten)"
+(gdb) 
+389^done,path_expr="((this)->maxTotalCanRead)"
+(gdb) 
+390^done,path_expr="((this)->cvDrain)"
+(gdb) 
+391^done,path_expr="((this)->cvRead)"
+(gdb) 
+392^done,path_expr="((this)->circBuffer)"
+(gdb) 
+393^done,path_expr="((this)->connectionReset)"
+(gdb) 
+394^done,path_expr="((this)->socketInfoMutex)"
+(gdb) 
+395^done,value="4"
+(gdb) 
+396^done,value="5"
+(gdb) 
+397^done,value="0"
+(gdb) 
+398^done,value="{...}"
+(gdb) 
+399^done,value="{...}"
+(gdb) 
+400^done,value="{...}"
+(gdb) 
+401^done,value="false"
+(gdb) 
+402^done,value="{...}"
+(gdb) 
+403^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559634",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="165",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+404^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+405^done,depth="2"
+(gdb) 
+406^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+407^done,depth="3"
+(gdb) 
+408^done
+(gdb) 
+409^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559634",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="165",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+410^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+411^done,locals=[{name="bytesRead",value="32767"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+412^done,changelist=[]
+(gdb) 
+413^done,stack=[frame={level="0",addr="0x0000555555559634",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="165",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+414^done,changelist=[]
+(gdb) 
+415^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559779",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="174",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+416^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+417^done,depth="2"
+(gdb) 
+418^done,locals=[{name="bytesRead",value="32767"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+419^done,depth="3"
+(gdb) 
+420^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+421^done
+(gdb) 
+422^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559779",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="174",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+423^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+424^done,changelist=[]
+(gdb) 
+425^done,stack=[frame={level="0",addr="0x0000555555559779",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="174",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+426^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555597a2",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="175",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+427^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+428^done,depth="2"
+(gdb) 
+429^done,locals=[{name="bytesRead",value="4"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+430^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+431^done,depth="3"
+(gdb) 
+432^done
+(gdb) 
+433^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x00005555555597a2",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="175",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+434^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+435^done,changelist=[]
+(gdb) 
+436^done,stack=[frame={level="0",addr="0x00005555555597a2",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="175",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+437^done,changelist=[]
+(gdb) 
+438^done,changelist=[]
+(gdb) 
+439^done,changelist=[]
+(gdb) 
+440^done,changelist=[]
+(gdb) 
+441^done,changelist=[]
+(gdb) 
+442^done,changelist=[{name="var24",value="4",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+443^done,changelist=[]
+(gdb) 
+444^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555597af",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="176",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+445^done,locals=[{name="bytesRead",value="4"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+446^done,depth="3"
+(gdb) 
+447^done
+(gdb) 
+448^done,changelist=[]
+(gdb) 
+449^done,changelist=[]
+(gdb) 
+450^done,changelist=[]
+(gdb) 
+451^done,changelist=[]
+(gdb) 
+452^done,changelist=[]
+(gdb) 
+453^done,changelist=[]
+(gdb) 
+454^done,changelist=[]
+(gdb) 
+455^done,changelist=[]
+(gdb) 
+456^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x00005555555597af",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="176",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+457^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+458^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+459^done,stack=[frame={level="0",addr="0x00005555555597af",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="176",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+460^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555597fb",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="177",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+461^done,locals=[{name="bytesRead",value="4"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+462^done,depth="3"
+(gdb) 
+463^done,depth="3"
+(gdb) 
+464^done,changelist=[{name="var18.private.totalWritten",value="1",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+465^done
+(gdb) 
+466^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x00005555555597fb",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="177",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+467^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+468^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+469^done,stack=[frame={level="0",addr="0x00005555555597fb",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="177",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+470^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cb7",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="165",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+471^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+472^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+473^done,depth="3"
+(gdb) 
+474^done
+(gdb) 
+475^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559cb7",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="165",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+476^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+477^done,locals=[{name="bytesRead",value="4"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+478^done,changelist=[]
+(gdb) 
+479^done,changelist=[]
+(gdb) 
+480^done,changelist=[]
+(gdb) 
+481^done,changelist=[]
+(gdb) 
+482^done,changelist=[]
+(gdb) 
+483^done,changelist=[]
+(gdb) 
+484^done,changelist=[]
+(gdb) 
+485^done,stack=[frame={level="0",addr="0x0000555555559cb7",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="165",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+486^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cb8",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="207",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+487^done,locals=[{name="bytesRead",value="4"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+488^done,depth="3"
+(gdb) 
+489^done,depth="3"
+(gdb) 
+490^done,changelist=[]
+(gdb) 
+491^done
+(gdb) 
+492^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559cb8",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="207",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+493^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+494^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+495^done,stack=[frame={level="0",addr="0x0000555555559cb8",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="207",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+496^done,changelist=[]
+(gdb) 
+497^done,changelist=[]
+(gdb) 
+498^done,changelist=[]
+(gdb) 
+499^done,changelist=[]
+(gdb) 
+500^done,changelist=[]
+(gdb) 
+501^done,changelist=[]
+(gdb) 
+502^done,changelist=[]
+(gdb) 
+503^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cbf",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="161",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+504^done,locals=[{name="bytesRead",value="4"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = true}"}]
+(gdb) 
+505^done,depth="3"
+(gdb) 
+506^done,changelist=[]
+(gdb) 
+507^done
+(gdb) 
+508^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559cbf",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="161",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+509^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+510^done,changelist=[]
+(gdb) 
+511^done,changelist=[]
+(gdb) 
+512^done,changelist=[]
+(gdb) 
+513^done,changelist=[]
+(gdb) 
+514^done,changelist=[]
+(gdb) 
+515^done,changelist=[]
+(gdb) 
+516^done,changelist=[]
+(gdb) 
+517^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+518^done,stack=[frame={level="0",addr="0x0000555555559cbf",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="161",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+519^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cce",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="158",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+520^done,locals=[{name="bytesRead",value="4"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = false}"}]
+(gdb) 
+521^done,depth="3"
+(gdb) 
+522^done
+(gdb) 
+523^done,changelist=[]
+(gdb) 
+524^done,changelist=[]
+(gdb) 
+525^done,changelist=[]
+(gdb) 
+526^done,changelist=[]
+(gdb) 
+527^done,changelist=[]
+(gdb) 
+528^done,changelist=[]
+(gdb) 
+529^done,changelist=[]
+(gdb) 
+530^done,changelist=[]
+(gdb) 
+531^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559cce",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="158",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+532^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+533^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+534^done,stack=[frame={level="0",addr="0x0000555555559cce",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="158",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+535^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559d5b",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="208",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+536^done,locals=[{name="bytesRead",value="4"},{name="socketLk",value="{_M_device = 0x6100000000d0, _M_owns = false}"}]
+(gdb) 
+537^done,depth="3"
+(gdb) 
+538^done,depth="3"
+(gdb) 
+539^done,changelist=[]
+(gdb) 
+540^done,changelist=[]
+(gdb) 
+541^done,changelist=[]
+(gdb) 
+542^done,changelist=[]
+(gdb) 
+543^done,changelist=[]
+(gdb) 
+544^done,changelist=[]
+(gdb) 
+545^done,changelist=[]
+(gdb) 
+546^done,changelist=[]
+(gdb) 
+547^done
+(gdb) 
+548^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x0000555555559d5b",func="(anonymous namespace)::socketInfoClass::reading2",args=[{name="this",value="0x610000000050"},{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="208",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+549^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+550^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+551^done,stack=[frame={level="0",addr="0x0000555555559d5b",func="(anonymous namespace)::socketInfoClass::reading2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="208",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a76a",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="265",arch="i386:x86-64"},frame={level="2",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+552^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a76e",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="259",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+553^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = false}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 2, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+554^done,depth="2"
+(gdb) 
+555^done
+(gdb) 
+556^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a76e",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="259",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+557^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+558^done,changelist=[]
+(gdb) 
+559^done,changelist=[]
+(gdb) 
+560^done,changelist=[]
+(gdb) 
+561^done,changelist=[]
+(gdb) 
+562^done,changelist=[]
+(gdb) 
+563^done,changelist=[]
+(gdb) 
+564^done,changelist=[]
+(gdb) 
+565^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+566^done,stack=[frame={level="0",addr="0x000055555555a76e",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="259",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+567^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a77b",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="258",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+568^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = false}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+569^done,depth="2"
+(gdb) 
+570^done,depth="2"
+(gdb) 
+571^done,changelist=[]
+(gdb) 
+572^done,changelist=[]
+(gdb) 
+573^done,changelist=[]
+(gdb) 
+574^done,changelist=[]
+(gdb) 
+575^done,changelist=[]
+(gdb) 
+576^done,changelist=[]
+(gdb) 
+577^done,changelist=[]
+(gdb) 
+578^done
+(gdb) 
+579^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a77b",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="258",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+580^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+581^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+582^done,stack=[frame={level="0",addr="0x000055555555a77b",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="258",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+583^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a78b",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="257",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+584^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = false}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+585^done,depth="2"
+(gdb) 
+586^done
+(gdb) 
+587^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a78b",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="257",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+588^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+589^done,changelist=[]
+(gdb) 
+590^done,changelist=[]
+(gdb) 
+591^done,changelist=[]
+(gdb) 
+592^done,changelist=[]
+(gdb) 
+593^done,changelist=[]
+(gdb) 
+594^done,changelist=[]
+(gdb) 
+595^done,changelist=[]
+(gdb) 
+596^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+597^done,stack=[frame={level="0",addr="0x000055555555a78b",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="257",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+598^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a80b",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="266",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+599^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+600^done,depth="2"
+(gdb) 
+601^done,locals=[{name="desInfoLk",value="{_M_pm = 0x555555574be0 <(anonymous namespace)::mapMutex>, _M_owns = false}"},{name="desInfoP",value="std::shared_ptr<(anonymous namespace)::socketInfoClass> (use count 1, weak count 0) = {get() = 0x610000000050}"}]
+(gdb) 
+602^done,depth="2"
+(gdb) 
+603^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+604^done
+(gdb) 
+605^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555a80b",func="myReadcond2",args=[{name="des",value="3"},{name="buf",value="0x555555574c80 <B2>"},{name="n",value="4"},{name="min",value="4"},{name="time",value="0"}],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="266",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+606^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+607^done,changelist=[]
+(gdb) 
+608^done,changelist=[]
+(gdb) 
+609^done,changelist=[]
+(gdb) 
+610^done,changelist=[]
+(gdb) 
+611^done,changelist=[]
+(gdb) 
+612^done,changelist=[]
+(gdb) 
+613^done,changelist=[]
+(gdb) 
+614^done,stack=[frame={level="0",addr="0x000055555555a80b",func="myReadcond2",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="266",arch="i386:x86-64"},frame={level="1",addr="0x000055555555bdd6",func="main",file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="396",arch="i386:x86-64"}]
+(gdb) 
+615^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555bdd6",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="398",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+616^done,locals=[{name="sch",value="{sched_priority = 60}"},{name="coutThread",value="{<std::thread> = {_M_id = {_M_thread = 140737280734976}}, <No data fields>}"},{name="cpu_set",value="{__bits = {140737488346097, 93824992292755, 140737340872352, 140737343357936, 140737340891080, 140737339158439, 0, 0, 140737488346160, 3, 140737488346224, 140737343357277, 140737488346192, 93824992250970, 140737488346552, 93824992365440}}"},{name="threadName",value="0x55555556c820 \"Pri\""},{name="ptr",value="0x62a000000200"}]
+(gdb) 
+617^done,depth="1"
+(gdb) 
+618^done
+(gdb) 
+619^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555bdd6",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="398",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+620^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+621^done,changelist=[]
+(gdb) 
+622^done,changelist=[]
+(gdb) 
+623^done,changelist=[]
+(gdb) 
+624^done,changelist=[]
+(gdb) 
+625^done,changelist=[]
+(gdb) 
+626^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+627^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555bde0",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="400",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+628^done,new-thread-id="2",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"}
+(gdb) 
+629^done,depth="2"
+(gdb) 
+630^done,threads=[{id="2",target-id="Thread 0x7ffff39ff700 (LWP 3986)",name="Pri",frame={level="0",addr="0x00007ffff756c376",func="futex_wait_cancelable",args=[{name="private",value="<optimized out>"},{name="expected",value="0"},{name="futex_word",value="0x6100000001b4"}],file="../sysdeps/nptl/futex-internal.h",fullname="/build/glibc-YYA7BZ/glibc-2.31/sysdeps/nptl/futex-internal.h",line="183",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+631^done,depth="1"
+(gdb) 
+632^done
+(gdb) 
+633^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555bde0",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="400",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+634^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+635^done,locals=[{name="sch",value="{sched_priority = 60}"},{name="coutThread",value="{<std::thread> = {_M_id = {_M_thread = 140737280734976}}, <No data fields>}"},{name="cpu_set",value="{__bits = {140737488346097, 93824992292755, 140737340872352, 140737343357936, 140737340891080, 140737339158439, 0, 0, 140737488346160, 3, 140737488346224, 140737343357277, 140737488346192, 93824992250970, 140737488346552, 93824992365440}}"},{name="threadName",value="0x55555556c820 \"Pri\""},{name="ptr",value="0x62a000000200"}]
+(gdb) 
+636^done,changelist=[]
+(gdb) 
+637^done,changelist=[]
+(gdb) 
+638^done,changelist=[]
+(gdb) 
+639^done,changelist=[]
+(gdb) 
+640^done,changelist=[]
+(gdb) 
+641^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff39ff700 (LWP 3986))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+=thread-exited,id="2",group-id="i1"
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555bded",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="402",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+642^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555bded",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="402",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+643^done,locals=[{name="sch",value="{sched_priority = 60}"},{name="coutThread",value="{<std::thread> = {_M_id = {_M_thread = 140737280734976}}, <No data fields>}"},{name="cpu_set",value="{__bits = {140737488346097, 93824992292755, 140737340872352, 140737343357936, 140737340891080, 140737339158439, 0, 0, 140737488346160, 3, 140737488346224, 140737343357277, 140737488346192, 93824992250970, 140737488346552, 93824992365440}}"},{name="threadName",value="0x55555556c820 \"Pri\""},{name="ptr",value="0x62a000000200"}]
+(gdb) 
+644^done,depth="1"
+(gdb) 
+645^done
+(gdb) 
+646^done,threads=[{id="1",target-id="Thread 0x7ffff7009e40 (LWP 3977)",name="Pri",frame={level="0",addr="0x000055555555bded",func="main",args=[],file="../src/myioFinal.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp",line="402",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+647^done,groups=[{id="i1",type="process",pid="3977",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/Debug/finalPrep",cores=["0"]}]
+(gdb) 
+648^done,changelist=[]
+(gdb) 
+649^done,changelist=[]
+(gdb) 
+650^done,changelist=[]
+(gdb) 
+651^done,changelist=[]
+(gdb) 
+652^done,changelist=[]
+(gdb) 
+653^exit
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"

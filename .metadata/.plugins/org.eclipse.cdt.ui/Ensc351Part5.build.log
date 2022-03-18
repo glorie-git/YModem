@@ -1,0 +1,10 @@
+16:49:07 **** Incremental Build of configuration Debug for project Ensc351Part5 ****
+make all 
+Building target: Ensc351Part5
+Invoking: GCC C++ Linker
+g++ -L"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351/Debug" -L"/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351ymodLib/Debug" -pthread -o "Ensc351Part5"  ./src/Ensc351Part5.o ./src/Kvm.o ./src/Medium.o ./src/main.o   -lEnsc351ymodLib -lEnsc351
+Finished building target: Ensc351Part5
+ 
+
+16:49:11 Build Finished. 0 errors, 0 warnings. (took 3s.731ms)
+

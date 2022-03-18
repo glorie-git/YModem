@@ -1,0 +1,61 @@
+16:14:43 **** Clean-only build of configuration Debug for project Ensc351Part3-test ****
+make clean 
+rm -rf  ./src/Ensc351Part3-test.o ./src/Medium.o ./src/PeerY.o ./src/ReceiverY.o ./src/SenderY.o ./src/myIO.o  ./src/Ensc351Part3-test.d ./src/Medium.d ./src/PeerY.d ./src/ReceiverY.d ./src/SenderY.d ./src/myIO.d  Ensc351Part3-test
+ 
+16:14:44 **** Incremental Build of configuration Debug for project Ensc351Part3-test ****
+make all 
+Building file: ../src/Ensc351Part3-test.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -I"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351" -O0 -g3 -fsanitize=address       -fsanitize=leak     -fsanitize=undefined       -fsanitize=pointer-compare  -fsanitize=pointer-subtract -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ensc351Part3-test.d" -MT"src/Ensc351Part3-test.o" -o "src/Ensc351Part3-test.o" "../src/Ensc351Part3-test.cpp"
+Finished building: ../src/Ensc351Part3-test.cpp
+ 
+Building file: ../src/Medium.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -I"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351" -O0 -g3 -fsanitize=address       -fsanitize=leak     -fsanitize=undefined       -fsanitize=pointer-compare  -fsanitize=pointer-subtract -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Medium.d" -MT"src/Medium.o" -o "src/Medium.o" "../src/Medium.cpp"
+Finished building: ../src/Medium.cpp
+ 
+Building file: ../src/PeerY.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -I"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351" -O0 -g3 -fsanitize=address       -fsanitize=leak     -fsanitize=undefined       -fsanitize=pointer-compare  -fsanitize=pointer-subtract -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PeerY.d" -MT"src/PeerY.o" -o "src/PeerY.o" "../src/PeerY.cpp"
+../src/PeerY.cpp:42:21: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+   42 | updcrc(register int c, register unsigned crc)
+      |                     ^
+../src/PeerY.cpp:42:42: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+   42 | updcrc(register int c, register unsigned crc)
+      |                                          ^~~
+../src/PeerY.cpp: In function ‘short unsigned int updcrc(int, unsigned int)’:
+../src/PeerY.cpp:44:15: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+   44 |  register int count;
+      |               ^~~~~
+../src/PeerY.cpp: In function ‘void crc16ns(uint16_t*, uint8_t*)’:
+../src/PeerY.cpp:66:16: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+   66 |   register int wcj;
+      |                ^~~
+../src/PeerY.cpp:67:21: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+   67 |   register uint8_t *cp;
+      |                     ^~
+Finished building: ../src/PeerY.cpp
+ 
+Building file: ../src/ReceiverY.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -I"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351" -O0 -g3 -fsanitize=address       -fsanitize=leak     -fsanitize=undefined       -fsanitize=pointer-compare  -fsanitize=pointer-subtract -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ReceiverY.d" -MT"src/ReceiverY.o" -o "src/ReceiverY.o" "../src/ReceiverY.cpp"
+Finished building: ../src/ReceiverY.cpp
+ 
+Building file: ../src/SenderY.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -I"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351" -O0 -g3 -fsanitize=address       -fsanitize=leak     -fsanitize=undefined       -fsanitize=pointer-compare  -fsanitize=pointer-subtract -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SenderY.d" -MT"src/SenderY.o" -o "src/SenderY.o" "../src/SenderY.cpp"
+Finished building: ../src/SenderY.cpp
+ 
+Building file: ../src/myIO.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -I"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351" -O0 -g3 -fsanitize=address       -fsanitize=leak     -fsanitize=undefined       -fsanitize=pointer-compare  -fsanitize=pointer-subtract -Wall -c -fmessage-length=0 -MMD -MP -MF"src/myIO.d" -MT"src/myIO.o" -o "src/myIO.o" "../src/myIO.cpp"
+Finished building: ../src/myIO.cpp
+ 
+Building target: Ensc351Part3-test
+Invoking: GCC C++ Linker
+g++ -L"/mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351/Debug" -fsanitize=address       -fsanitize=leak     -fsanitize=undefined       -fsanitize=pointer-compare  -fsanitize=pointer-subtract -pthread -o "Ensc351Part3-test"  ./src/Ensc351Part3-test.o ./src/Medium.o ./src/PeerY.o ./src/ReceiverY.o ./src/SenderY.o ./src/myIO.o   -lEnsc351
+Finished building target: Ensc351Part3-test
+ 
+16:15:19 **** Incremental Build of configuration Release for project Ensc351Part3-test ****
+make all 
+make: Nothing to be done for 'all'.

@@ -1,0 +1,34 @@
+doxygen/doxygen_new_line_after_brief=true
+doxygen/doxygen_use_brief_tag=false
+doxygen/doxygen_use_javadoc_tags=true
+doxygen/doxygen_use_pre_tag=false
+doxygen/doxygen_use_structural_commands=false
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/ASAN_OPTIONS/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/ASAN_OPTIONS/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/ASAN_OPTIONS/value=detect_leaks\=0
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_OPTIONS/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_OPTIONS/operation=replace
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_OPTIONS/value=-fsanitize\=address       -fsanitize\=leak     -fsanitize\=undefined       -fsanitize\=pointer-compare  -fsanitize\=pointer-subtract
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_SET_WITH_ADDRESS/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_SET_WITH_ADDRESS/operation=replace
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_SET_WITH_ADDRESS/value=-fsanitize\=address       -fsanitize\=leak     -fsanitize\=undefined       -fsanitize\=pointer-compare  -fsanitize\=pointer-subtract
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_SET_WITH_THREAD/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_SET_WITH_THREAD/operation=replace
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_SET_WITH_THREAD/value=-fsanitize\=thread     -fsanitize\=undefined
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/appendContributed=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_OPTIONS/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_OPTIONS/operation=replace
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_OPTIONS/value=-fsanitize\=address       -fsanitize\=leak     -fsanitize\=undefined       -fsanitize\=pointer-compare  -fsanitize\=pointer-subtract
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_SET_WITH_ADDRESS/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_SET_WITH_ADDRESS/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_SET_WITH_ADDRESS/value=-fsanitize\=address       -fsanitize\=leak     -fsanitize\=undefined       -fsanitize\=pointer-compare  -fsanitize\=pointer-subtract
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_SET_WITH_THREAD/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_SET_WITH_THREAD/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_SET_WITH_THREAD/value=-fsanitize\=thread     -fsanitize\=undefined
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_THREAD_CHOICE/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_THREAD_CHOICE/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_THREAD_CHOICE/value=-fsanitize\=thread
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/appendContributed=true

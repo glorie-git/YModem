@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_DUMMY_CHOICES/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_DUMMY_CHOICES/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_DUMMY_CHOICES/value=-fsanitize\=address       -fsanitize\=leak
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_OPTIONS/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_OPTIONS/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/SAN_OPTIONS/value=-fsanitize\=address       -fsanitize\=leak
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.927515938/appendContributed=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_DUMMY_CHOICES/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_DUMMY_CHOICES/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_DUMMY_CHOICES/value=-fsanitize\=address       -fsanitize\=leak
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_OPTIONS/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_OPTIONS/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/SAN_OPTIONS/value=-fsanitize\=address       -fsanitize\=leak
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.1749133730/appendContributed=true

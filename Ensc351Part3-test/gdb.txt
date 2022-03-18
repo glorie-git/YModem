@@ -1,0 +1,135 @@
+~"+handle SIGPIPE nostop\n"
+~"+skip -rfu ^std::\n"
+~"Function(s) ^std:: will be skipped when stepping.\n"
+~"+skip file /mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351/ScopedMutex.cpp \n"
+~"File /mnt/hgfs/VMsf2020/git/ensc351lib/Ensc351/ScopedMutex.cpp will be skipped when stepping.\n"
+~"+set sysroot /\n"
+=cmd-param-changed,param="sysroot",value="/"
+~"+python\n"
+14^done
+(gdb) 
+15^done,groups=[{id="i1",type="process"}]
+(gdb) 
+16^done
+(gdb) 
+17^done
+(gdb) 
+18^done
+(gdb) 
+19^done
+(gdb) 
+20^done,value="auto"
+(gdb) 
+21^done
+(gdb) 
+~"$1 = 0xff\n"
+22^done
+(gdb) 
+23^done,value="8"
+(gdb) 
+24^done
+(gdb) 
+~"The target endianness is set automatically (currently little endian)\n"
+25^done
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp.\n"
+26^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp:240",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp:240"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp.\n"
+27^done,bkpt={number="2",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:88",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:88"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp.\n"
+28^done,bkpt={number="3",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:222",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:222"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp.\n"
+29^done,bkpt={number="4",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:211",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:211"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+30^done,bkpt={number="5",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:157",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:157"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp.\n"
+31^done,bkpt={number="6",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:107",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:107"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp.\n"
+32^done,bkpt={number="7",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:83",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/SenderY.cpp:83"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+33^done,bkpt={number="8",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:118",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:118"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+34^done,bkpt={number="9",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:95",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:95"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+35^done,bkpt={number="10",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:99",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:99"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp.\n"
+36^done,bkpt={number="11",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:396",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:396"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+37^done,bkpt={number="12",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:64",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:64"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp.\n"
+38^done,bkpt={number="13",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:395",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/finalPrep/src/myioFinal.cpp:395"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+39^done,bkpt={number="14",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:167",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:167"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+40^done,bkpt={number="15",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:114",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:114"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+41^done,bkpt={number="16",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:66",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:66"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp.\n"
+42^done,bkpt={number="17",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:70",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/src/Ensc351Part3-test.cpp:70"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp.\n"
+43^done,bkpt={number="18",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:145",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/ReceiverY.cpp:145"}
+(gdb) 
+&"No source file named /mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp.\n"
+44^done,bkpt={number="19",type="breakpoint",disp="keep",enabled="n",addr="<PENDING>",pending="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp:397",times="0",original-location="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part2-1217/src/SenderY.cpp:397"}
+(gdb) 
+45^done,bkpt={number="20",type="breakpoint",disp="del",enabled="y",addr="0x0000000000073150",at="<main>",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+46^done
+(gdb) 
+=thread-group-started,id="i1",pid="3768"
+=thread-created,id="1",group-id="i1"
+=breakpoint-modified,bkpt={number="20",type="breakpoint",disp="del",enabled="y",addr="0x00005555555c7150",at="<main>",thread-groups=["i1"],times="0",original-location="main"}
+=library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7fd0100",to="0x00007ffff7ff2674"}]
+47^running
+*running,thread-id="all"
+(gdb) 
+48^done,groups=[{id="i1",type="process",pid="3768",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/Release/Ensc351Part3-test",cores=["0"]}]
+(gdb) 
+=library-loaded,id="/lib/x86_64-linux-gnu/libasan.so.5",target-name="/lib/x86_64-linux-gnu/libasan.so.5",host-name="/lib/x86_64-linux-gnu/libasan.so.5",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff75a1a80",to="0x00007ffff76ce172"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libstdc++.so.6",target-name="/lib/x86_64-linux-gnu/libstdc++.so.6",host-name="/lib/x86_64-linux-gnu/libstdc++.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff743b160",to="0x00007ffff7523452"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libubsan.so.1",target-name="/lib/x86_64-linux-gnu/libubsan.so.1",host-name="/lib/x86_64-linux-gnu/libubsan.so.1",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff6a36d10",to="0x00007ffff6a6f352"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libgcc_s.so.1",target-name="/lib/x86_64-linux-gnu/libgcc_s.so.1",host-name="/lib/x86_64-linux-gnu/libgcc_s.so.1",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff6a185e0",to="0x00007ffff6a29045"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libpthread.so.0",target-name="/lib/x86_64-linux-gnu/libpthread.so.0",host-name="/lib/x86_64-linux-gnu/libpthread.so.0",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff69f9ae0",to="0x00007ffff6a094d5"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libc.so.6",target-name="/lib/x86_64-linux-gnu/libc.so.6",host-name="/lib/x86_64-linux-gnu/libc.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff6825630",to="0x00007ffff699a20d"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libdl.so.2",target-name="/lib/x86_64-linux-gnu/libdl.so.2",host-name="/lib/x86_64-linux-gnu/libdl.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff67f9220",to="0x00007ffff67fa179"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/librt.so.1",target-name="/lib/x86_64-linux-gnu/librt.so.1",host-name="/lib/x86_64-linux-gnu/librt.so.1",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff67f0720",to="0x00007ffff67f3d70"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libm.so.6",target-name="/lib/x86_64-linux-gnu/libm.so.6",host-name="/lib/x86_64-linux-gnu/libm.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff66ad3c0",to="0x00007ffff6753f18"}]
+=breakpoint-modified,bkpt={number="20",type="breakpoint",disp="del",enabled="y",addr="0x00005555555c7150",at="<main>",thread-groups=["i1"],times="1",original-location="main"}
+~"\n"
+~"Temporary breakpoint 20, 0x00005555555c7150 in main ()\n"
+*stopped,reason="breakpoint-hit",disp="del",bkptno="20",frame={addr="0x00005555555c7150",func="main",args=[],arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+=breakpoint-deleted,id="20"
+49^done,groups=[{id="i1",type="process",pid="3768",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/Release/Ensc351Part3-test",cores=["0"]}]
+(gdb) 
+50^done,threads=[{id="1",target-id="Thread 0x7ffff669d680 (LWP 3768)",name="Ensc351Part3-te",frame={level="0",addr="0x00005555555c7150",func="main",args=[],arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+51^done,depth="1"
+(gdb) 
+52^done
+(gdb) 
+53^done,groups=[{id="i1",type="process",pid="3768",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part3-test/Release/Ensc351Part3-test",cores=["0"]}]
+(gdb) 
+54^done,threads=[{id="1",target-id="Thread 0x7ffff669d680 (LWP 3768)",name="Ensc351Part3-te",frame={level="0",addr="0x00005555555c7150",func="main",args=[],arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+55^done,locals=[]
+(gdb) 
+56^exit
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
